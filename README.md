@@ -1,6 +1,6 @@
-------------------------------------------
-Maintained by M Mohamed Khalid, IIT Madras
-------------------------------------------
+------------------------------------------------------
+Maintained by M Mohamed Khalid and Manoj V, IIT Madras
+------------------------------------------------------
 
 This is the code repository for a flight controller board based on STM32 microcontroller. It functionalities are
 1. Sensor interfacing - MPU9250, MS5611 and PX4FLOW
