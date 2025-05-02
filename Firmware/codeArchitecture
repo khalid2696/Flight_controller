@@ -1,0 +1,7 @@
+FCB 2.0 code architecture
+
+
+HAL_timers                      -- micros() , 
+HAL_external_interrupts  -- receiver, safety switch, sensors etc
+HAL_IO                            --Actuating LED,  ESC Pins
+HAL_pin_declarations        -- put all the pin configuratio stuff here

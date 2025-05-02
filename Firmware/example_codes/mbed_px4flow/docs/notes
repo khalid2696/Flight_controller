@@ -1,0 +1,3 @@
+It takes 600uS to read a frame completely.
+i2c update rate is 50Hz or 20mS
+

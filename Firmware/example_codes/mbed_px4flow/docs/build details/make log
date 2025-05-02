@@ -1,0 +1,142 @@
+Checked mavlink submodule, correct version found
+%%%%
+%%%% Building px4flow-v1_default on baremetal in /home/manoj/gits/Flow/Build/px4flow-v1_default.build/
+%%%%
+make[1]: Entering directory '/home/manoj/gits/Flow/Build/px4flow-v1_default.build'
+%  PX4_BASE            = /home/manoj/gits/Flow/
+%  GIT_DESC            = d66e28ab8071670f068ecb3ff51afccf1bc73a6e
+%  BUILD_URI           = "localhost"
+%  CONFIG              = px4flow-v1_default
+%  PX4_TARGET_OS       = baremetal
+/home/manoj/gits/Flow/makefiles/baremetal/toolchain_gnu-arm-eabi.mk:57: Unsupported version of arm-none-eabi-gcc, found: 7.2.1 instead of one in: 4.7.4 4.7.5 4.7.6 4.8.4 4.9.3 5.4.1
+%  BOARD               = px4flow-v1
+%  WORK_DIR            = /home/manoj/gits/Flow/Build/px4flow-v1_default.build/
+%  BAREMETTAL_STARTUP  = 
+%% Unpacking /home/manoj/gits/Flow/Archives/px4flow-v1.baremetal.export
+CC:      /home/manoj/gits/Flow/Build/px4flow-v1_default.build/empty.c
+make[2]: Entering directory '/home/manoj/gits/Flow/Build/px4flow-v1_default.build/home/manoj/gits/Flow/src/drivers/boards/px4flow-v1'
+
+%% MODULE px4flow-v1   (/home/manoj/gits/Flow/src/drivers/boards/px4flow-v1/module.mk)
+/home/manoj/gits/Flow/makefiles/baremetal/toolchain_gnu-arm-eabi.mk:57: Unsupported version of arm-none-eabi-gcc, found: 7.2.1 instead of one in: 4.7.4 4.7.5 4.7.6 4.8.4 4.9.3 5.4.1
+make[2]: Nothing to be done for 'module'.
+make[2]: Leaving directory '/home/manoj/gits/Flow/Build/px4flow-v1_default.build/home/manoj/gits/Flow/src/drivers/boards/px4flow-v1'
+make[2]: Entering directory '/home/manoj/gits/Flow/Build/px4flow-v1_default.build/home/manoj/gits/Flow/src/modules/flow'
+
+%% MODULE flow   (/home/manoj/gits/Flow/src/modules/flow/module.mk)
+/home/manoj/gits/Flow/makefiles/baremetal/toolchain_gnu-arm-eabi.mk:57: Unsupported version of arm-none-eabi-gcc, found: 7.2.1 instead of one in: 4.7.4 4.7.5 4.7.6 4.8.4 4.9.3 5.4.1
+SRCS=/home/manoj/gits/Flow/src/lib/stm32/st/v1.0.2/startup_stm32f4xx.s system_stm32f4xx.c stm32f4xx_it.c  main.c utils.c led.c settings.c communication.c flow.c dcmi.c mt9v034.c gyro.c usart.c sonar.c debug.c usb_bsp.c usbd_cdc_vcp.c usbd_desc.c usbd_usr.c i2c.c reset.c sonar_mode_filter.c /home/manoj/gits/Flow/src/lib/stm32/st/v1.0.2/STM32F4xx_StdPeriph_Driver/src/misc.c /home/manoj/gits/Flow/src/lib/stm32/st/v1.0.2/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c /home/manoj/gits/Flow/src/lib/stm32/st/v1.0.2/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c /home/manoj/gits/Flow/src/lib/stm32/st/v1.0.2/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c /home/manoj/gits/Flow/src/lib/stm32/st/v1.0.2/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c /home/manoj/gits/Flow/src/lib/stm32/st/v1.0.2/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c /home/manoj/gits/Flow/src/lib/stm32/st/v1.0.2/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c /home/manoj/gits/Flow/src/lib/stm32/st/v1.0.2/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c /home/manoj/gits/Flow/src/lib/stm32/st/v1.0.2/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c /home/manoj/gits/Flow/src/lib/stm32/st/v1.0.2/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c /home/manoj/gits/Flow/src/lib/stm32/st/v1.0.2/STM32_USB_OTG_Driver/src/usb_core.c /home/manoj/gits/Flow/src/lib/stm32/st/v1.0.2/STM32_USB_OTG_Driver/src/usb_dcd_int.c /home/manoj/gits/Flow/src/lib/stm32/st/v1.0.2/STM32_USB_OTG_Driver/src/usb_dcd.c /home/manoj/gits/Flow/src/lib/stm32/st/v1.0.2/STM32_USB_Device_Library/Core/src/usbd_core.c /home/manoj/gits/Flow/src/lib/stm32/st/v1.0.2/STM32_USB_Device_Library/Core/src/usbd_req.c /home/manoj/gits/Flow/src/lib/stm32/st/v1.0.2/STM32_USB_Device_Library/Core/src/usbd_ioreq.c /home/manoj/gits/Flow/src/lib/stm32/st/v1.0.2/STM32_USB_Device_Library/Class/cdc/src/usbd_cdc_core.c
+make[2]: Nothing to be done for 'module'.
+make[2]: Leaving directory '/home/manoj/gits/Flow/Build/px4flow-v1_default.build/home/manoj/gits/Flow/src/modules/flow'
+make[2]: Entering directory '/home/manoj/gits/Flow/Build/px4flow-v1_default.build/home/manoj/gits/Flow/src/modules/libc'
+
+%% MODULE libc   (/home/manoj/gits/Flow/src/modules/libc/module.mk)
+/home/manoj/gits/Flow/makefiles/baremetal/toolchain_gnu-arm-eabi.mk:57: Unsupported version of arm-none-eabi-gcc, found: 7.2.1 instead of one in: 4.7.4 4.7.5 4.7.6 4.8.4 4.9.3 5.4.1
+INCLUDE_DIRS=/home/manoj/gits/Flow/src/ /home/manoj/gits/Flow/src/modules/ /home/manoj/gits/Flow/src/include/ /home/manoj/gits/Flow/src/lib/ /home/manoj/gits/Flow/src/platforms/ /home/manoj/gits/Flow/Build/versioning/ /home/manoj/gits/Flow/src/drivers/bootloaders/include /home/manoj/gits/Flow/src/lib/stm32/st/v1.0.2 /home/manoj/gits/Flow/src/lib/stm32/st/v1.0.2/STM32F4xx_StdPeriph_Driver/inc  /home/manoj/gits/Flow/src/drivers/boards/px4flow-v1  /home/manoj/gits/Flow/src//modules/libc/ /home/manoj/gits/Flow/src//modules/libc/syslog 
+make[2]: Nothing to be done for 'module'.
+make[2]: Leaving directory '/home/manoj/gits/Flow/Build/px4flow-v1_default.build/home/manoj/gits/Flow/src/modules/libc'
+make[2]: Entering directory '/home/manoj/gits/Flow/Build/px4flow-v1_default.build/home/manoj/gits/Flow/src/platforms/common'
+
+%% MODULE common   (/home/manoj/gits/Flow/src/platforms/common/module.mk)
+/home/manoj/gits/Flow/makefiles/baremetal/toolchain_gnu-arm-eabi.mk:57: Unsupported version of arm-none-eabi-gcc, found: 7.2.1 instead of one in: 4.7.4 4.7.5 4.7.6 4.8.4 4.9.3 5.4.1
+make[2]: Nothing to be done for 'module'.
+make[2]: Leaving directory '/home/manoj/gits/Flow/Build/px4flow-v1_default.build/home/manoj/gits/Flow/src/platforms/common'
+LINK:    /home/manoj/gits/Flow/Build/px4flow-v1_default.build/firmware.elf
+BIN:     /home/manoj/gits/Flow/Build/px4flow-v1_default.build/firmware.bin
+%% Generating /home/manoj/gits/Flow/Build/px4flow-v1_default.build/firmware.px4
+make[1]: Leaving directory '/home/manoj/gits/Flow/Build/px4flow-v1_default.build'
+%% Copying /home/manoj/gits/Flow/Images/px4flow-v1_default.px4
+%%%%
+%%%% Building px4flow-v2_default on baremetal in /home/manoj/gits/Flow/Build/px4flow-v2_default.build/
+%%%%
+make[1]: Entering directory '/home/manoj/gits/Flow/Build/px4flow-v2_default.build'
+%  PX4_BASE            = /home/manoj/gits/Flow/
+%  GIT_DESC            = d66e28ab8071670f068ecb3ff51afccf1bc73a6e
+%  BUILD_URI           = "localhost"
+%  CONFIG              = px4flow-v2_default
+%  PX4_TARGET_OS       = baremetal
+/home/manoj/gits/Flow/makefiles/baremetal/toolchain_gnu-arm-eabi.mk:57: Unsupported version of arm-none-eabi-gcc, found: 7.2.1 instead of one in: 4.7.4 4.7.5 4.7.6 4.8.4 4.9.3 5.4.1
+%  BOARD               = px4flow-v2
+%  WORK_DIR            = /home/manoj/gits/Flow/Build/px4flow-v2_default.build/
+%  BAREMETTAL_STARTUP  = 
+%% Unpacking /home/manoj/gits/Flow/Archives/px4flow-v2.baremetal.export
+CC:      /home/manoj/gits/Flow/Build/px4flow-v2_default.build/empty.c
+make[2]: Entering directory '/home/manoj/gits/Flow/Build/px4flow-v2_default.build/home/manoj/gits/Flow/src/drivers/boards/px4flow-v2'
+
+%% MODULE px4flow-v2   (/home/manoj/gits/Flow/src/drivers/boards/px4flow-v2/module.mk)
+/home/manoj/gits/Flow/makefiles/baremetal/toolchain_gnu-arm-eabi.mk:57: Unsupported version of arm-none-eabi-gcc, found: 7.2.1 instead of one in: 4.7.4 4.7.5 4.7.6 4.8.4 4.9.3 5.4.1
+make[2]: Nothing to be done for 'module'.
+make[2]: Leaving directory '/home/manoj/gits/Flow/Build/px4flow-v2_default.build/home/manoj/gits/Flow/src/drivers/boards/px4flow-v2'
+make[2]: Entering directory '/home/manoj/gits/Flow/Build/px4flow-v2_default.build/home/manoj/gits/Flow/src/modules/flow'
+
+%% MODULE flow   (/home/manoj/gits/Flow/src/modules/flow/module.mk)
+/home/manoj/gits/Flow/makefiles/baremetal/toolchain_gnu-arm-eabi.mk:57: Unsupported version of arm-none-eabi-gcc, found: 7.2.1 instead of one in: 4.7.4 4.7.5 4.7.6 4.8.4 4.9.3 5.4.1
+SRCS=/home/manoj/gits/Flow/src/lib/stm32/st/v1.0.2/startup_stm32f4xx.s system_stm32f4xx.c stm32f4xx_it.c  main.c utils.c led.c settings.c communication.c flow.c dcmi.c mt9v034.c gyro.c usart.c sonar.c debug.c usb_bsp.c usbd_cdc_vcp.c usbd_desc.c usbd_usr.c i2c.c reset.c sonar_mode_filter.c /home/manoj/gits/Flow/src/lib/stm32/st/v1.0.2/STM32F4xx_StdPeriph_Driver/src/misc.c /home/manoj/gits/Flow/src/lib/stm32/st/v1.0.2/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c /home/manoj/gits/Flow/src/lib/stm32/st/v1.0.2/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c /home/manoj/gits/Flow/src/lib/stm32/st/v1.0.2/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c /home/manoj/gits/Flow/src/lib/stm32/st/v1.0.2/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c /home/manoj/gits/Flow/src/lib/stm32/st/v1.0.2/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c /home/manoj/gits/Flow/src/lib/stm32/st/v1.0.2/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c /home/manoj/gits/Flow/src/lib/stm32/st/v1.0.2/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c /home/manoj/gits/Flow/src/lib/stm32/st/v1.0.2/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c /home/manoj/gits/Flow/src/lib/stm32/st/v1.0.2/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c /home/manoj/gits/Flow/src/lib/stm32/st/v1.0.2/STM32_USB_OTG_Driver/src/usb_core.c /home/manoj/gits/Flow/src/lib/stm32/st/v1.0.2/STM32_USB_OTG_Driver/src/usb_dcd_int.c /home/manoj/gits/Flow/src/lib/stm32/st/v1.0.2/STM32_USB_OTG_Driver/src/usb_dcd.c /home/manoj/gits/Flow/src/lib/stm32/st/v1.0.2/STM32_USB_Device_Library/Core/src/usbd_core.c /home/manoj/gits/Flow/src/lib/stm32/st/v1.0.2/STM32_USB_Device_Library/Core/src/usbd_req.c /home/manoj/gits/Flow/src/lib/stm32/st/v1.0.2/STM32_USB_Device_Library/Core/src/usbd_ioreq.c /home/manoj/gits/Flow/src/lib/stm32/st/v1.0.2/STM32_USB_Device_Library/Class/cdc/src/usbd_cdc_core.c
+make[2]: Nothing to be done for 'module'.
+make[2]: Leaving directory '/home/manoj/gits/Flow/Build/px4flow-v2_default.build/home/manoj/gits/Flow/src/modules/flow'
+make[2]: Entering directory '/home/manoj/gits/Flow/Build/px4flow-v2_default.build/home/manoj/gits/Flow/src/modules/libc'
+
+%% MODULE libc   (/home/manoj/gits/Flow/src/modules/libc/module.mk)
+/home/manoj/gits/Flow/makefiles/baremetal/toolchain_gnu-arm-eabi.mk:57: Unsupported version of arm-none-eabi-gcc, found: 7.2.1 instead of one in: 4.7.4 4.7.5 4.7.6 4.8.4 4.9.3 5.4.1
+INCLUDE_DIRS=/home/manoj/gits/Flow/src/ /home/manoj/gits/Flow/src/modules/ /home/manoj/gits/Flow/src/include/ /home/manoj/gits/Flow/src/lib/ /home/manoj/gits/Flow/src/platforms/ /home/manoj/gits/Flow/Build/versioning/ /home/manoj/gits/Flow/src/drivers/bootloaders/include /home/manoj/gits/Flow/src/lib/stm32/st/v1.0.2 /home/manoj/gits/Flow/src/lib/stm32/st/v1.0.2/STM32F4xx_StdPeriph_Driver/inc  /home/manoj/gits/Flow/src/drivers/boards/px4flow-v2  /home/manoj/gits/Flow/src//modules/libc/ /home/manoj/gits/Flow/src//modules/libc/syslog 
+make[2]: Nothing to be done for 'module'.
+make[2]: Leaving directory '/home/manoj/gits/Flow/Build/px4flow-v2_default.build/home/manoj/gits/Flow/src/modules/libc'
+make[2]: Entering directory '/home/manoj/gits/Flow/Build/px4flow-v2_default.build/home/manoj/gits/Flow/src/modules/libcxx'
+
+%% MODULE libcxx   (/home/manoj/gits/Flow/src/modules/libcxx/module.mk)
+/home/manoj/gits/Flow/makefiles/baremetal/toolchain_gnu-arm-eabi.mk:57: Unsupported version of arm-none-eabi-gcc, found: 7.2.1 instead of one in: 4.7.4 4.7.5 4.7.6 4.8.4 4.9.3 5.4.1
+make[2]: Nothing to be done for 'module'.
+make[2]: Leaving directory '/home/manoj/gits/Flow/Build/px4flow-v2_default.build/home/manoj/gits/Flow/src/modules/libcxx'
+make[2]: Entering directory '/home/manoj/gits/Flow/Build/px4flow-v2_default.build/home/manoj/gits/Flow/src/modules/uavcannode'
+
+%% MODULE uavcannode   (/home/manoj/gits/Flow/src/modules/uavcannode/module.mk)
+/home/manoj/gits/Flow/makefiles/baremetal/toolchain_gnu-arm-eabi.mk:57: Unsupported version of arm-none-eabi-gcc, found: 7.2.1 instead of one in: 4.7.4 4.7.5 4.7.6 4.8.4 4.9.3 5.4.1
+Running from the source directory
+CMD:     uavcannode
+make[2]: Leaving directory '/home/manoj/gits/Flow/Build/px4flow-v2_default.build/home/manoj/gits/Flow/src/modules/uavcannode'
+make[2]: Entering directory '/home/manoj/gits/Flow/Build/px4flow-v2_default.build/home/manoj/gits/Flow/src/platforms/common'
+
+%% MODULE common   (/home/manoj/gits/Flow/src/platforms/common/module.mk)
+/home/manoj/gits/Flow/makefiles/baremetal/toolchain_gnu-arm-eabi.mk:57: Unsupported version of arm-none-eabi-gcc, found: 7.2.1 instead of one in: 4.7.4 4.7.5 4.7.6 4.8.4 4.9.3 5.4.1
+make[2]: Nothing to be done for 'module'.
+make[2]: Leaving directory '/home/manoj/gits/Flow/Build/px4flow-v2_default.build/home/manoj/gits/Flow/src/platforms/common'
+LINK:    /home/manoj/gits/Flow/Build/px4flow-v2_default.build/firmware.elf
+%% Generating UAVCAN Bootable \org.pixhawk.px4flow-v2\-2.0-0.1.d66e28ab as /home/manoj/gits/Flow/Images/\org.pixhawk.px4flow-v2\-2.0-0.1.d66e28ab.uavcan.bin
+BIN:     /home/manoj/gits/Flow/Build/px4flow-v2_default.build/firmware.bin
+
+Application descriptor located at offset 0x00000188
+
+READ VALUES
+------------------------------------------------------------------------------
+
+Field               Type              Value
+signature           uint64            'APDesc00'
+image_crc           uint64            0x0000000000000000
+image_size          uint32            0x0 (0 B)
+vcs_commit          uint32            00000000
+version_major       uint8             0
+version_minor       uint8             1
+reserved            uint8[6]          '\xff\xff\xff\xff\xff\xff'
+
+WRITTEN VALUES
+------------------------------------------------------------------------------
+
+Field               Type              Value
+signature           uint64            'APDesc00'
+image_crc           uint64            0x9D7AC5734D708F38
+image_size          uint32            0x1BCAC (113836 B)
+vcs_commit          uint32            D66E28AB
+version_major       uint8             0
+version_minor       uint8             1
+reserved            uint8[6]          '\xff\xff\xff\xff\xff\xff'
+
+%% Generating /home/manoj/gits/Flow/Build/px4flow-v2_default.build/firmware.px4
+make[1]: Leaving directory '/home/manoj/gits/Flow/Build/px4flow-v2_default.build'
+%% Copying /home/manoj/gits/Flow/Images/px4flow-v2_default.px4
+Attempting to flash px4flow-v1_default.px4 PX4FLOW board via USB
+Loaded firmware for 6,0, waiting for the bootloader...
+Found board 6,0 bootloader rev 3 on /dev/ttyACM0
+erase...
+program...
+verify...
+done, rebooting.
+

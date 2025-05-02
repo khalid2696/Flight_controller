@@ -1,0 +1,4 @@
+/home/manoj/gits/Flight-Control-Board/FCBcode/quadcopter/FCBquad/FCB_V_2_0/example_codes/serial_read_mbed/src/main.cpp:2:10: fatal error: mbed.h: No such file or directory
+ #include "mbed.h"
+          ^~~~~~~~
+compilation terminated.

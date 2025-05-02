@@ -1,0 +1,7 @@
+/home/manoj/gits/Flight-Control-Board/FCBcode/quadcopter/FCBquad/FCB_V_2_0/example_codes/MPU_9250_dmp/dmpless_mpu9250_using_motionDriver6.12/lib/inv_mpu/inv_mpu.c:119:2: warning: #warning Your system is not officially supported. So, I will just include mdcompat.h, however you must provide it. [-Wcpp]
+ #warning  Your system is not officially supported. So, I will just include \
+  ^~~~~~~
+/home/manoj/gits/Flight-Control-Board/FCBcode/quadcopter/FCBquad/FCB_V_2_0/example_codes/MPU_9250_dmp/dmpless_mpu9250_using_motionDriver6.12/lib/inv_mpu/inv_mpu.c:121:10: fatal error: mdcompat.h: No such file or directory
+ #include "mdcompat.h"
+          ^~~~~~~~~~~~
+compilation terminated.

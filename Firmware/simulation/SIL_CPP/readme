@@ -1,0 +1,20 @@
+SIL_CPP--> Software in (test) Loop C++
+
+Advantages in C++ simulation
+1) Developing the C++ simulation code can be later ported as kalman filter to the nucleo board
+2) It will provide better integration for HIL simulation that is planned in future. 
+3) I know C++ programming very well
+4) Less dependancy on external libraries/ commercial stuff
+5) Some fundamental stuff like matrix multiplication/ serial com/ File handling are already established by CFD course projects
+6) Qt framework can be used for GUI if needed(python  also has Qt support)
+7) Same C++ controller code can be used here
+
+Disadvantages in C++ simulation
+1) Time consuming
+2) High Probability of bugs(Matlab could be better. PYthon is worse haha)
+3)
+
+Matlab has some serious issue with Serial communication.
+Python is good but I dont have good grip over it and I make a lot of stupid mistake(which C++ compiler obviously flags as error).
+
+Hence considering all the above facts/opinions/potatoes and since this project is  a long term investment and C++ is giving be better returns, I am going with C++ for quadcopter simulation.

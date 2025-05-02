@@ -1,0 +1,12 @@
+This paper deals with simulation of P^2 controller on Quaternion based approach. 
+This is nearly similar to our approach with small changes.
+Paper only deals with simulation
+Algo takes both torque and Velocity (direction, Magnitude) into account and control accordingly using the weights given.
+
+DIFFERENCES:
+1)P^2 controller vs regular PID
+2)Implementation transformations are not given
+3)Integral term is not there. So it will not stabilize
+
+POSSIBLE MISTAKE:
+It is stated that integral is not needed due to some non linear dynamics. This wont be true. W term will act like derivative and q term will act for the proportional part

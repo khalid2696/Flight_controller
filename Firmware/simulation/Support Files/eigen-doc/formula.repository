@@ -1,0 +1,239 @@
+\form#0:$A^T*A$
+\form#1:$ A $
+\form#2:$ A = P^TLDL^*P $
+\form#3:$ A x = b $
+\form#4:$ A = P^T L D L^* P $
+\form#5:$ P^T y_1 = b $
+\form#6:$ L y_2 = y_1 $
+\form#7:$ D y_3 = y_2 $
+\form#8:$ L^* y_4 = y_3 $
+\form#9:$ P x = y_4 $
+\form#10:$ D $
+\form#11:$ \ell^p $
+\form#12:$ \ell^\infty $
+\form#13:$\infty$
+\form#14:$ v $
+\form#15:$ w $
+\form#16:$ p $
+\form#17:\[ \Vert v - w \Vert \leqslant p\,\min(\Vert v\Vert, \Vert w\Vert). \]
+\form#18:$ x $
+\form#19:\[ \Vert v \Vert \leqslant p\,\vert x\vert. \]
+\form#20:\[ \Vert v \Vert \leqslant p\,\Vert w\Vert. \]
+\form#21:$ \sigma $
+\form#22:$ P_\sigma $
+\form#23:$ (e_1,\ldots,e_p) $
+\form#24:\[ P_\sigma(e_i) = e_{\sigma(i)}. \]
+\form#25:$ \sigma, \tau $
+\form#26:\[ P_{\sigma\circ\tau} = P_\sigma P_\tau. \]
+\form#27:$(ij)$
+\form#28:$ this = this + \alpha u v^* + conj(\alpha) v u^* $
+\form#29:$ this = this + \alpha ( u u^* ) $
+\form#30:$ this = this + \alpha ( u^* u ) $
+\form#31:$ s \Vert \frac{*this}{s} \Vert $
+\form#32:$[T_{n-1} \ldots T_{i} \ldots T_{0}]$
+\form#33:$ T_{i} $
+\form#34:$ T_{i} M$
+\form#35:$ M T_{i}$
+\form#36:$ Ax = \lambda B x $
+\form#37:$ ABx = \lambda x $
+\form#38:$ BAx = \lambda x $
+\form#39:$ \lambda $
+\form#40:$ Av = \lambda v $
+\form#41:$ V $
+\form#42:$ A V = V D $
+\form#43:$ A = V D V^{-1} $
+\form#44:$ k $
+\form#45:$ O(n^3) $
+\form#46:$ n $
+\form#47:$ A = U T U^*$
+\form#48:$25n^3$
+\form#49:$10n^3$
+\form#50:\[ \begin{bmatrix} u & v \\ -v & u \end{bmatrix} \]
+\form#51:$ u $
+\form#52:$ u \pm iv $
+\form#53:$ AV = VD $
+\form#54:$ \begin{bmatrix} u & v \\ -v & u \end{bmatrix} $
+\form#55:$ 25n^3 $
+\form#56:$ 10n^3 $
+\form#57:$ B $
+\form#58:$ Av = \lambda Bv $
+\form#59:$ A V = B V D $
+\form#60:$ A = B V D V^{-1} $
+\form#61:$ \alpha $
+\form#62:$ \beta $
+\form#63:$ \lambda_i = \alpha_i / \beta_i $
+\form#64:$ \beta_i $
+\form#65:$ \mu = \beta_i / \alpha_i$
+\form#66:$ \mu_i A v_i = B v_i $
+\form#67:$ \mu_i u_i^T A = u_i^T B $
+\form#68:$ u_i $
+\form#69:$ x^* B x = 1 $
+\form#70:$ B = LL^* $
+\form#71:$ L^{-1} A (L^*)^{-1} $
+\form#72:$ L^{*} A L $
+\form#73:$ L^{-1} A (L^*)^{-1} (L^* x) = \lambda (L^* x) $
+\form#74:$ Q $
+\form#75:$ H $
+\form#76:$ A = Q H Q^T $
+\form#77:$ Q^{-1} = Q^T $
+\form#78:$ A = Q H Q^* $
+\form#79:$ Q^{-1} = Q^* $
+\form#80:$ 10n^3/3 $
+\form#81:$ Q = H_{N-1} \ldots H_1 H_0 $
+\form#82:$ H_i $
+\form#83:$ H_i = (I - h_i v_i v_i^T) $
+\form#84:$ h_i $
+\form#85:$ i $
+\form#86:$ v_i $
+\form#87:$ v_i = [ 0, \ldots, 0, 1, M(i+2,i), \ldots, M(N-1,i) ]^T $
+\form#88:\[ \|A\|_2 = \max_x \frac{\|Ax\|_2}{\|x\|_2} \]
+\form#89:$ A^*A $
+\form#90:$ A = Q S Z $
+\form#91:$ B = Q T Z $
+\form#92:$ U^{-1} = U^T $
+\form#93:$ A - z B $
+\form#94:$ A = U T U^T $
+\form#95:$ 9n^3 $
+\form#96:$ 4n^3/3 $
+\form#97:$ A^{1/2} = V D^{1/2} V^{-1} $
+\form#98:$ V D^{-1/2} V^{-1} $
+\form#99:$ A = Q T Q^* $
+\form#100:$ T $
+\form#101:$ mat = Q T Q^* $
+\form#102:$ n \cdot x + d = 0 $
+\form#103:$ d $
+\form#104:$ c_0*x_0 + ... + c_{d-1}*x_{d-1} + c_d = 0 $
+\form#105:$ (\mathbf{a}+i\mathbf{b}) \times (\mathbf{c}+i\mathbf{d}) = (\mathbf{a} \times \mathbf{c} - \mathbf{b} \times \mathbf{d}) - i(\mathbf{a} \times \mathbf{d} - \mathbf{b} \times \mathbf{c})$
+\form#106:$ \mathbf{o} $
+\form#107:$ \mathbf{d} $
+\form#108:$ l(t) = \mathbf{o} + t \mathbf{d} $
+\form#109:$ t \in \mathbf{R} $
+\form#110:$ w+xi+yj+zk $
+\form#111:$ \left( \begin{array}{cc} linear & translation\\ 0 ... 0 & 1 \end{array} \right) $
+\form#112:$ \left( \begin{array}{cc} I & t \\ 0\,...\,0 & 1 \end{array} \right) $
+\form#113:$ \left( \begin{array}{cc} R & 0\\ 0\,...\,0 & 1 \end{array} \right) $
+\form#114:$ \left( \begin{array}{cc} S & 0\\ 0\,...\,0 & 1 \end{array} \right) $
+\form#115:$ \left( \begin{array}{c} v\\ 1 \end{array} \right) $
+\form#116:$ \left( \begin{array}{ccc} v_1 & ... & v_n\\ 1 & ... & 1 \end{array} \right) $
+\form#117:$ c, \mathbf{R}, $
+\form#118:$ \mathbf{t} $
+\form#119:\begin{align*} \frac{1}{n} \sum_{i=1}^n \vert\vert y_i - (c\mathbf{R}x_i + \mathbf{t}) \vert\vert_2^2 \end{align*}
+\form#120:$ \Sigma_{\mathbf{x}\mathbf{y}} \in \mathbb{R}^{d \times d} $
+\form#121:$ \mathbf{x} $
+\form#122:$ \mathbf{y} $
+\form#123:$d$
+\form#124:$O(d^3)$
+\form#125:$O(dm)$
+\form#126:$d \times m$
+\form#127:$ \mathbf{x} = \left( x_1, \hdots, x_n \right) $
+\form#128:$ \mathbf{y} = \left( y_1, \hdots, y_n \right) $
+\form#129:$ c=1 $
+\form#130:\begin{align*} T = \begin{bmatrix} c\mathbf{R} & \mathbf{t} \\ \mathbf{0} & 1 \end{bmatrix} \end{align*}
+\form#131:$ H *this = [ beta 0 ... 0]^T $
+\form#132:$ H = I - tau v v^*$
+\form#133:$ v^T = [1 essential^T] $
+\form#134:$ n \times n $
+\form#135:$ H = \prod_{i=0}^{n-1} H_i $
+\form#136:$ H_i = I - h_i v_i v_i^* $
+\form#137:\[ v_i = [\underbrace{0, \ldots, 0}_{i-1\mbox{ zeros}}, 1, \underbrace{*, \ldots,*}_{n-i\mbox{ arbitrary entries}} ]. \]
+\form#138:$ n-i $
+\form#139:$ MH $
+\form#140:$ M $
+\form#141:$ HM $
+\form#142:$ H = H_0 H_1 \ldots H_{n-1} $
+\form#143:$ H = H_{\mathrm{shift}} H_{\mathrm{shift}+1} \ldots H_{n-1} $
+\form#144:$ H^T = H_{n-1}^T \ldots H_1^T H_0^T $
+\form#145:$ S P A P' S \approx L L' $
+\form#146:$ B = S P A P' S $
+\form#147:$ \beta > 0 $
+\form#148:$ B + (\sigma+|\beta| I $
+\form#149:$ \sigma = 10^{-3} $
+\form#150:$ \theta $
+\form#151:$ J = \left ( \begin{array}{cc} c & \overline s \\ -s & \overline c \end{array} \right ) $
+\form#152:$ v = J^* v $
+\form#153:$ B = \left ( \begin{array}{cc} x & y \\ \overline y & z \end{array} \right )$
+\form#154:$ A = J^* B J $
+\form#155:$ B = \left ( \begin{array}{cc} \text{this}_{pp} & \text{this}_{pq} \\ (\text{this}_{pq})^* & \text{this}_{qq} \end{array} \right )$
+\form#156:$ G^* $
+\form#157:$ V = \left ( \begin{array}{c} p \\ q \end{array} \right )$
+\form#158:$ G^* V = \left ( \begin{array}{c} r \\ 0 \end{array} \right )$
+\form#159:$ B = \left ( \begin{array}{cc} \text{*this.row}(p) \\ \text{*this.row}(q) \end{array} \right ) $
+\form#160:$ B = \left ( \begin{array}{cc} \text{*this.col}(p) & \text{*this.col}(q) \end{array} \right ) $
+\form#161:$ \left ( \begin{array}{cc} x \\ y \end{array} \right ) = J \left ( \begin{array}{cc} x \\ y \end{array} \right ) $
+\form#162:$ A = P^{-1} L U Q^{-1} $
+\form#163:$ P^{-1} L U Q^{-1} $
+\form#164:$ \vert pivot \vert \leqslant threshold \times \vert maxpivot \vert $
+\form#165:\[ \mathbf{A} \, \mathbf{P} = \mathbf{Q} \, \mathbf{R} \]
+\form#166:\[ \mathbf{A} \, \mathbf{P} = \mathbf{Q} \, \begin{bmatrix} \mathbf{T} & \mathbf{0} \\ \mathbf{0} & \mathbf{0} \end{bmatrix} \, \mathbf{Z} \]
+\form#167:\[\mathrm{minimize} \|A X - B\|, \]
+\form#168:$ \mathbf{Z}^* * \mathbf{rhs} $
+\form#169:\[ \mathbf{P} \, \mathbf{A} \, \mathbf{P}' = \mathbf{Q} \, \mathbf{R} \]
+\form#170:\[ \mathbf{A} = \mathbf{Q} \, \mathbf{R} \]
+\form#171:$ P_r $
+\form#172:$P_r A P_c^T = L U$
+\form#173:$ P_c^T $
+\form#174:$ A X = B $
+\form#175:\[ A = U S V^* \]
+\form#176:$ O(n^2p) $
+\form#177:$ \vert singular value \vert \leqslant threshold \times \vert max singular value \vert $
+\form#178:$ \Vert A x - b \Vert $
+\form#179:$ x^Ty $
+\form#180:$ |a_i| $
+\form#181:$ 1/a_i $
+\form#182:$ \bar{a_i} $
+\form#183:$ e $
+\form#184:$ e^{a_i} $
+\form#185:$ \ln({a_i}) $
+\form#186:$ \ln({1+a_i}) $
+\form#187:$ \log_{10}({a_i}) $
+\form#188:$ a_i ^ {b_i} $
+\form#189:$ \sqrt a_i $
+\form#190:$ 1/{\sqrt a_i} $
+\form#191:$ a_i^2 $
+\form#192:$ a_i^3 $
+\form#193:$ |a_i|^2 $
+\form#194:$ \sin^{-1} a_i $
+\form#195:$ \cos^{-1} a_i $
+\form#196:$ \tan^{-1} a_i $
+\form#197:$ \gamma(a_i,x_i)= \frac{1}{|a_i|} \int_{0}^{x_i}e^{\text{-}t} t^{a_i-1} \mathrm{d} t $
+\form#198:$ \Gamma(a_i,x_i) = \frac{1}{|a_i|} \int_{x_i}^{\infty}e^{\text{-}t} t^{a_i-1} \mathrm{d} t $
+\form#199:$ \zeta(a_i,b_i)=\sum_{k=0}^{\infty}(b_i+k)^{\text{-}a_i} $
+\form#200:\[ \begin{bmatrix} 1 & 8 & 4 & 2 \\ 2 & 1 & 8 & 4 \\ 4 & 2 & 1 & 8 \\ 8 & 4 & 2 & 1 \end{bmatrix} \]
+\form#201:$ A^T A $
+\form#202:$ C.noalias() += \alpha op1(A) op2(B) $
+\form#203:$ M_2 := L_1^{-1} M_2 $
+\form#204:$ M_3 := {L_1^*}^{-1} M_3 $
+\form#205:$ M_4 := M_4 U_1^{-1} $
+\form#206:$ upper(M_1) \mathrel{{+}{=}} s_1 M_2 M_2^* $
+\form#207:$ lower(M_1) \mathbin{{-}{=}} M_2^* M_2 $
+\form#208:$ M \mathrel{{+}{=}} s u v^* + s v u^* $
+\form#209:$ M_2 := M_1^{-1} M_2 $
+\form#210:\[ v = \begin{bmatrix} 1 \\ 2 \\ 3 \end{bmatrix}. \]
+\form#211:\[ A = \begin{bmatrix} 8 & 2 & 2 & 9 \\ 9 & 1 & 4 & 4 \\ 3 & 5 & 4 & 5 \end{bmatrix}. \]
+\form#212:$ A^* $
+\form#213:$ v^* A v > 0 $
+\form#214:$ v^* A v < 0 $
+\form#215:$ v^* A v \ge 0 $
+\form#216:$ v^* A v \le 0 $
+\form#217:$ J = \bigl[ \begin{smallmatrix} O & I \\ I & O \end{smallmatrix} \bigr] $
+\form#218:$ \bigl[ \begin{smallmatrix} 0 & 1 \\ 1 & 0 \end{smallmatrix} \bigr] $
+\form#219:$ \mathbf{p} \equiv \mathbf{p}-0 $
+\form#220:\[ Ax \: = \: b \]
+\form#221:$ a^T $
+\form#222:$ \bar{a} $
+\form#223:$ a^* $
+\form#224:$ a $
+\form#225:$\ell^2$
+\form#226:$\ell^p$
+\form#227:$\ell^\infty$
+\form#228:\[ \mbox{m} = \begin{bmatrix} 1 & 2 & 6 & 9 \\ 3 & 1 & 7 & 2 \end{bmatrix} \]
+\form#229:\[ \mbox{m.colwise().sum()} = \begin{bmatrix} 4 & 3 & 13 & 11 \end{bmatrix} \]
+\form#230:\[ \begin{bmatrix} 1 & 2 & 6 & 9 \\ 3 & 1 & 7 & 2 \end{bmatrix} + \begin{bmatrix} 0 & 0 & 0 & 0 \\ 1 & 1 & 1 & 1 \end{bmatrix} = \begin{bmatrix} 1 & 2 & 6 & 9 \\ 4 & 2 & 8 & 3 \end{bmatrix}. \]
+\form#231:\[ \mbox{m.colwise() - v} = \begin{bmatrix} -1 & 21 & 4 & 7 \\ 0 & 8 & 4 & -1 \end{bmatrix} \]
+\form#232:\[ \mbox{(m.colwise() - v).colwise().squaredNorm()} = \begin{bmatrix} 1 & 505 & 32 & 50 \end{bmatrix} \]
+\form#233:$ \Delta u = 0 $
+\form#234:$ Ax=b $
+\form#235:$ b $
+\form#236:$ m \times m $
+\form#237:$ A^T + A $
+\form#238:$ A^T $

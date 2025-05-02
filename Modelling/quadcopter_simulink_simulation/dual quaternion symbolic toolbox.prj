@@ -1,0 +1,101 @@
+<deployment-project plugin="plugin.toolbox" plugin-version="1.0">
+  <configuration file="/home/manoj/gits/Flight-Control-Board/Quad stab/dual quaternion symbolic toolbox.prj" location="/home/manoj/gits/Flight-Control-Board/Quad stab" name="dual quaternion symbolic toolbox" target="target.toolbox" target-name="Package Toolbox">
+    <param.appname>dual quaternion symbolic toolbox</param.appname>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.output>${PROJECT_ROOT}/dual quaternion symbolic toolbox.mltbx</param.output>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.guid />
+    <param.exclude.filters />
+    <param.examples>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;examples/&gt;</param.examples>
+    <param.demosxml />
+    <param.apps />
+    <param.docs />
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.version />
+      <param.output />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.guid />
+      <param.exclude.filters />
+      <param.demosxml />
+      <param.apps />
+      <param.docs />
+    </unset>
+    <fileset.rootdir>
+      <file>/home/manoj/gits/Flight-Control-Board/Manuals/dual quaternion symbolic toolbox</file>
+    </fileset.rootdir>
+    <fileset.rootfiles>
+      <file>/home/manoj/gits/Flight-Control-Board/Manuals/dual quaternion symbolic toolbox/Dual quaternion symbolic  toolbox</file>
+      <file>/home/manoj/gits/Flight-Control-Board/Manuals/dual quaternion symbolic toolbox/Install.txt</file>
+      <file>/home/manoj/gits/Flight-Control-Board/Manuals/dual quaternion symbolic toolbox/example_direction.m</file>
+      <file>/home/manoj/gits/Flight-Control-Board/Manuals/dual quaternion symbolic toolbox/example_position.m</file>
+      <file>/home/manoj/gits/Flight-Control-Board/Manuals/dual quaternion symbolic toolbox/example_velocity.m</file>
+      <file>/home/manoj/gits/Flight-Control-Board/Manuals/dual quaternion symbolic toolbox/readme.txt</file>
+    </fileset.rootfiles>
+    <fileset.depfun.included>
+      <file>/home/manoj/Link to Flight-Control-Board/Manuals/dual quaternion symbolic toolbox/Dual quaternion symbolic  toolbox/dq2line.m</file>
+      <file>/home/manoj/Link to Flight-Control-Board/Manuals/dual quaternion symbolic toolbox/Dual quaternion symbolic  toolbox/dq2pos.m</file>
+      <file>/home/manoj/Link to Flight-Control-Board/Manuals/dual quaternion symbolic toolbox/Dual quaternion symbolic  toolbox/dq2rot.m</file>
+      <file>/home/manoj/Link to Flight-Control-Board/Manuals/dual quaternion symbolic toolbox/Dual quaternion symbolic  toolbox/dq2screw.m</file>
+      <file>/home/manoj/Link to Flight-Control-Board/Manuals/dual quaternion symbolic toolbox/Dual quaternion symbolic  toolbox/dq2vel.m</file>
+      <file>/home/manoj/Link to Flight-Control-Board/Manuals/dual quaternion symbolic toolbox/Dual quaternion symbolic  toolbox/dqconj.m</file>
+      <file>/home/manoj/Link to Flight-Control-Board/Manuals/dual quaternion symbolic toolbox/Dual quaternion symbolic  toolbox/dqmult.m</file>
+      <file>/home/manoj/Link to Flight-Control-Board/Manuals/dual quaternion symbolic toolbox/Dual quaternion symbolic  toolbox/dqnorm.m</file>
+      <file>/home/manoj/Link to Flight-Control-Board/Manuals/dual quaternion symbolic toolbox/Dual quaternion symbolic  toolbox/line2dq.m</file>
+      <file>/home/manoj/Link to Flight-Control-Board/Manuals/dual quaternion symbolic toolbox/Dual quaternion symbolic  toolbox/pos2dq.m</file>
+      <file>/home/manoj/Link to Flight-Control-Board/Manuals/dual quaternion symbolic toolbox/Dual quaternion symbolic  toolbox/private/qconj.m</file>
+      <file>/home/manoj/Link to Flight-Control-Board/Manuals/dual quaternion symbolic toolbox/Dual quaternion symbolic  toolbox/private/qmult.m</file>
+      <file>/home/manoj/Link to Flight-Control-Board/Manuals/dual quaternion symbolic toolbox/Dual quaternion symbolic  toolbox/private/qnorm.m</file>
+      <file>/home/manoj/Link to Flight-Control-Board/Manuals/dual quaternion symbolic toolbox/Dual quaternion symbolic  toolbox/rot2dq.m</file>
+      <file>/home/manoj/Link to Flight-Control-Board/Manuals/dual quaternion symbolic toolbox/Dual quaternion symbolic  toolbox/rotvel2dq.m</file>
+      <file>/home/manoj/Link to Flight-Control-Board/Manuals/dual quaternion symbolic toolbox/Dual quaternion symbolic  toolbox/screw2dq.m</file>
+      <file>/home/manoj/Link to Flight-Control-Board/Manuals/dual quaternion symbolic toolbox/Dual quaternion symbolic  toolbox/screwvel2dq.m</file>
+      <file>/home/manoj/Link to Flight-Control-Board/Manuals/dual quaternion symbolic toolbox/Dual quaternion symbolic  toolbox/trans2dq.m</file>
+      <file>/home/manoj/Link to Flight-Control-Board/Manuals/dual quaternion symbolic toolbox/Dual quaternion symbolic  toolbox/transvel2dq.m</file>
+      <file>/home/manoj/Link to Flight-Control-Board/Manuals/dual quaternion symbolic toolbox/Dual quaternion symbolic  toolbox/vel2dq.m</file>
+    </fileset.depfun.included>
+    <fileset.depfun.excluded />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/home/manoj/gits/Flight-Control-Board/Quad stab" name="dual quaternion symbolic toolbox.mltbx" optional="false">/home/manoj/gits/Flight-Control-Board/Quad stab/dual quaternion symbolic toolbox.mltbx</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/usr/local/MATLAB/R2015b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>false</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>true</linux>
+      <solaris>false</solaris>
+      <osver>4.2.0-34-generic</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>glnxa64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

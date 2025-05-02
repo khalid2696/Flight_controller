@@ -1,0 +1,11 @@
+
+platformio.ini USED BY PLATFORM IO
+mbed_app.json BUILD PROFILE FILE USED BY MBED CLI I THINK
+mbed_settings.py NO IDEA
+.clang_complete USED FOR AUTOCOMPLETER
+.gcc-flags.json USED BY PLATFORM IO
+.gitignore MADE FOR IGNORING GIT
+.mbed USED BY MBED CLI
+.mbedignore USED BY MBED CLI
+manoj_release.json USED BY MBED CLI
+BUILD folder is used BY MBED CLI

@@ -1,0 +1,34 @@
+
+This item was added on: 2003/03/31
+
+When people are introduced to C, they are often shown the gets() function as a method to get some input from the user/keyboard. It appears that some teachers are also quite insistant that their pupils continue to use it. Well, this is OK for a day one lesson, but gets() has an inherent problem that causes most coders to avoid using it. This quick overview will hopefully help new coders understand the problem, how to get around it, and also how it might also affect their own functions.
+
+The problem
+
+First, let's look at the prototype for this function:
+
+#include <stdio.h>
+char *gets(char *s);
+
+You can see that the one and only parameter is a char pointer. So then, if we make an array like this:
+
+char buf[100];
+
+we could pass it to gets() like so:
+
+gets(buf)
+
+So far, so good. Or so it seems... but really our problem has already begun. gets() has only received the name of the array (a pointer), it does not know how big the array is, and it is impossible to determine this from the pointer alone. When the user enters their text, gets() will read all available data into the array, this will be fine if the user is sensible and enters less than 99 bytes. However, if they enter more than 99, gets() will not stop writing at the end of the array. Instead, it continues writing past the end and into memory it doesn't own.
+
+This problem may manifest itself in a number of ways:
+
+No visible affect what-so-ever
+
+Immediate program termination (a crash)
+
+Termination at a later point in the programs life time (maybe 1 second later, maybe 15 days later)
+
+Termination of another, unrelated program
+
+Incorrect program behaviour and/or calculation
+... and the list goes on. This is the problem with "buffer overflow" bugs, you just can't tell when and how they'll bite you.

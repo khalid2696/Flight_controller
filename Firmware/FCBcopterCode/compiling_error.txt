@@ -1,0 +1,2 @@
+/home/manoj/gits/Flight-Control-Board/FCBcode/quadcopter/FCBquad/FCB_V_2_0/FCBcopterCode/Makefile: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status

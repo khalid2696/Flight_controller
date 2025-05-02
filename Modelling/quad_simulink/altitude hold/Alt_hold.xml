@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="07/31/16||07:14:14" using="Simscape Multibody Link Version 4.8" from="SolidWorks 24.0.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Assem" uid="Assem" version="146">
+<AssemblyFile name="Assem.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="frame-1" uid="frame-1" grounded="true" entityUid="frame*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.17335215044850866 0.38396257333599282 0.76458945053880889</Translation>
+</Transform>
+</Instance>
+<Instance name="PROPELLER - 8x4.5 CCW-- full-2" uid="PROPELLER - 8x4.5 CCW-- full-2" entityUid="PROPELLER - 8x4*:*Défaut">
+<Transform>
+<Rotation>0.86289107499173057 0 0.50538994123311942 0.50538994123311942 0 -0.86289107499173057 0 1 0</Rotation>
+<Translation>0.17366030434022864 -0.006761506155618718 0.80308945053880887</Translation>
+</Transform>
+</Instance>
+<Instance name="PROPELLER - 8x4.5 CCW-Mirror1-1" uid="PROPELLER - 8x4.5 CCW-Mirror1-1" entityUid="PROPELLER - 8x4*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>-0.25706377515138706 0.38293033995266557 0.80308945053880887</Translation>
+</Transform>
+</Instance>
+<Instance name="PROPELLER - 8x4.5 CCW-- full-1" uid="PROPELLER - 8x4.5 CCW-- full-1" entityUid="PROPELLER - 8x4*:*Défaut">
+<Transform>
+<Rotation>0.98985571228063784 0 -0.14207627833453076 -0.14207627833453076 0 -0.98985571228063784 0 1 0</Rotation>
+<Translation>0.17262807095689589 0.77365441944427715 0.80308945053880887</Translation>
+</Transform>
+</Instance>
+<Instance name="PROPELLER - 8x4.5 CCW-Mirror1-2" uid="PROPELLER - 8x4.5 CCW-Mirror1-2" entityUid="PROPELLER - 8x4*:*Default">
+<Transform>
+<Rotation>0.97179541703446337 0 0.23582550207900213 0.23582550207900213 0 -0.97179541703446337 0 1 0</Rotation>
+<Translation>0.52448033376713044 0.37452955325283205 0.80308945053880887</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>frame-1</Uid>
+</InstancePath>
+<Position>0.39000000000000007 0 0.050000000000000044</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>PROPELLER - 8x4.5 CCW-Mirror1-2</Uid>
+</InstancePath>
+<Position>0.039999999999999925 -0.0039267777847432628 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>frame-1</Uid>
+</InstancePath>
+<Position>0.00030815389171987007 -0.39072407949161153 0.050000000000000044</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>PROPELLER - 8x4.5 CCW-- full-2</Uid>
+</InstancePath>
+<Position>0 -0.0039267777847432628 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>frame-1</Uid>
+</InstancePath>
+<Position>-0.39041592559989574 -0.0010322333833272523 0.050000000000000044</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>PROPELLER - 8x4.5 CCW-Mirror1-1</Uid>
+</InstancePath>
+<Position>0.040000000000000008 -0.0039267777847432628 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>frame-1</Uid>
+</InstancePath>
+<Position>-0.00072407949161282237 0.38969184610828433 0.050000000000000044</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>PROPELLER - 8x4.5 CCW-- full-1</Uid>
+</InstancePath>
+<Position>0 -0.0039267777847432628 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>frame-1</Uid>
+</InstancePath>
+<Position>0.00030815389171987007 -0.39072407949161153 0.035000000000000031</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>PROPELLER - 8x4.5 CCW-- full-2</Uid>
+</InstancePath>
+<Position>0 -0.0034999999999999476 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>frame-1</Uid>
+</InstancePath>
+<Position>0.39000000000000007 0 0.035000000000000031</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>PROPELLER - 8x4.5 CCW-Mirror1-2</Uid>
+</InstancePath>
+<Position>0.039999999999999925 -0.0034999999999999476 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>frame-1</Uid>
+</InstancePath>
+<Position>-0.39041592559989574 -0.0010322333833272523 0.035000000000000031</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>PROPELLER - 8x4.5 CCW-Mirror1-1</Uid>
+</InstancePath>
+<Position>0.040000000000000008 -0.0034999999999999476 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>frame-1</Uid>
+</InstancePath>
+<Position>-0.00072407949161282237 0.38969184610828433 0.035000000000000031</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>PROPELLER - 8x4.5 CCW-- full-1</Uid>
+</InstancePath>
+<Position>0 -0.0034999999999999476 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="PROPELLER - 8x4" uid="PROPELLER - 8x4*:*Default" version="118">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="PROPELLER - 8x4.5 CCW-Mirror1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0061052446267698471</Mass>
+<CenterOfMass>0.039999999960591295 0.0012853228781777263 1.4347818792310324e-010</CenterOfMass>
+<Inertia>1.2781088813395157e-005 1.2883570155783563e-005 1.5656950018054954e-007 -8.3592452043264402e-016 1.4398325598951595e-008 0</Inertia>
+</MassProperties>
+<GeometryFile name="PROPELLER - 8x4_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="PROPELLER - 8x4" uid="PROPELLER - 8x4*:*Défaut" version="1837">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="PROPELLER - 8x4.5 CCW-- full.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0061053719906995086</Mass>
+<CenterOfMass>0 0.0012853448205600579 0</CenterOfMass>
+<Inertia>1.2782981371116833e-005 1.2885455076669259e-005 1.5655852931853103e-007 0 -1.460602088907469e-008 0</Inertia>
+</MassProperties>
+<GeometryFile name="PROPELLER - 8x4_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0" g="1" b="0" a="1"/>
+<Diffuse r="0" g="1" b="0" a="1"/>
+<Specular r="0" g="1" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.31</Shininess>
+</VisualProperties>
+</Part>
+<Part name="frame" uid="frame*:*Default" version="224">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="frame.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.4109401251988816</Mass>
+<CenterOfMass>-6.3785915621428828e-005 -0.0001583017791991942 0.0010368807584263558</CenterOfMass>
+<Inertia>0.12841604028764178 0.1284158836259178 0.25596427714114539 1.6365090615173479e-006 6.5941012920378352e-007 -1.5459427166224913e-007</Inertia>
+</MassProperties>
+<GeometryFile name="frame_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.79607843137254897" g="0.82352941176470584" b="0.93725490196078431" a="1"/>
+<Diffuse r="0.79607843137254897" g="0.82352941176470584" b="0.93725490196078431" a="1"/>
+<Specular r="0.39803921568627448" g="0.41176470588235292" b="0.46862745098039216" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

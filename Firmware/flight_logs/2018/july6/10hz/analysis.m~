@@ -1,0 +1,22 @@
+close all
+plot(time,pitch)
+hold on;
+%plot(time,roll)
+%plot(time,gy)
+%lets try our low speed complementary filter with the collected data
+%% ACC ANGLE
+pitchAcc = zeros(length(ax),1);
+for i = 1: length(ax)
+    pitchAcc(i) = atan2(ax(i),az(i));
+end
+plot(time, pitchAcc);
+
+%% GYRO ANGLE
+pitchGyro = zeros(length(time),1);
+pitchGyro(1)  =0;
+for i = 1:length(gy)-1
+pitchGyro(i+1) = pitchGyro(i) + gy(i)*0.1;
+end
+
+plot(time, pitchGyro);
+%% COMPLE FILTER

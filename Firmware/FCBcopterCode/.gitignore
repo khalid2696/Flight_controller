@@ -1,0 +1,12 @@
+.build
+projectfiles
+*.py*
+mbed-os
+BUILD
+.hg
+
+
+.pioenvs
+.piolibdeps
+.clang_complete
+.gcc-flags.json
