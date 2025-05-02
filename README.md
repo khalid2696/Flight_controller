@@ -1,8 +1,8 @@
-------------------------------------------------------
-Maintained by M Mohamed Khalid and Manoj V, IIT Madras
-------------------------------------------------------
+--------------------------------------------------------------------
+Maintained by Khalid M Jaffar and Manoj V from RAFT Lab, IIT Madras
+--------------------------------------------------------------------
 
-This is the code repository for a flight controller board based on STM32 microcontroller. It functionalities are
+Code repository for embedded flight controller board based on STM32 microcontroller. Its functionalities are
 1. Sensor interfacing - MPU9250, MS5611 and PX4FLOW
 2. Controller         - PID, PI-PID, Backstepping, etc.
 3. Datalogging
